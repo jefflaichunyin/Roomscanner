@@ -95,7 +95,7 @@ struct DeviceView: View {
                         }
                     }.onDisappear(perform: {device.open = .NA})
                 }
-                if device.type != .DoorOpen {
+                if ((device.type != .WindowOpen) && (device.type != .DoorOpen)) {
                     Toggle(isOn: $device.onCeiling){
                         Text("Is the device on the ceiling?")
                     }.onDisappear(perform: {device.onCeiling = false})

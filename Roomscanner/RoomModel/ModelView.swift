@@ -97,29 +97,93 @@ struct ModelView: View {
                     .padding()
                     
                 }
+                if selectedDevice != nil{
+                    HStack{
+                        Button(action: {
+                            var location = selectedDevice!.getLocation()
+                            location.y += 0.1
+                            selectedDevice?.setLocation(location: location)
+                            devices[Index] = selectedDevice!
+                        }, label: {
+                            Text("Move up").font(.caption)
+                        }).buttonStyle(.borderedProminent)
+                            .cornerRadius(40)
+                            .padding()
+                        Spacer()
+                        Button(action: {
+                            var location = selectedDevice!.getLocation()
+                            location.y -= 0.1
+                            selectedDevice?.setLocation(location: location)
+                            devices[Index] = selectedDevice!
+                        }, label: {
+                            Text("Move Down").font(.caption)
+                        }).buttonStyle(.borderedProminent)
+                            .cornerRadius(40)
+                            .padding()
+                        Spacer()
+                        Button(action: {
+                            var location = selectedDevice!.getLocation()
+                            location.x += 0.1
+                            selectedDevice?.setLocation(location: location)
+                            devices[Index] = selectedDevice!
+                        }, label: {
+                            Text("Move East").font(.caption)
+                        }).buttonStyle(.borderedProminent)
+                            .cornerRadius(40)
+                            .padding()
+                        Spacer()
+                        Button(action: {
+                            var location = selectedDevice!.getLocation()
+                            location.x -= 0.1
+                            selectedDevice?.setLocation(location: location)
+                            devices[Index] = selectedDevice!
+                        }, label: {
+                            Text("Move West").font(.caption)
+                        }).buttonStyle(.borderedProminent)
+                            .cornerRadius(40)
+                            .padding()
+                        Spacer()
+                        Button(action: {
+                            var location = selectedDevice!.getLocation()
+                            location.z += 0.1
+                            selectedDevice?.setLocation(location: location)
+                            devices[Index] = selectedDevice!
+                        }, label: {
+                            Text("Move South").font(.caption)
+                        }).buttonStyle(.borderedProminent)
+                            .cornerRadius(40)
+                            .padding()
+                        Spacer()
+                        Button(action: {
+                            var location = selectedDevice!.getLocation()
+                            location.z -= 0.1
+                            selectedDevice?.setLocation(location: location)
+                            devices[Index] = selectedDevice!
+                        }, label: {
+                            Text("Move North").font(.caption)
+                        }).buttonStyle(.borderedProminent)
+                            .cornerRadius(40)
+                            .padding()
+                    }
+                }
                     
                 Spacer()
                 
                 HStack {
-                    Button(action: {
-                        self.switchProjection()
-                    }, label: {
-                        Text("Switch Style").font(.title2)
-                    }).buttonStyle(.borderedProminent)
-                        .cornerRadius(40)
-                        .padding()
                     if devices.count != 0{
                         HStack {
                             Button(action: {
                                 selectPreviousDevice()
                             }) {
                                 Image(systemName: "arrow.backward.circle.fill")
-                            }
+                            }.controlSize(.large)
+                            .padding()
                             Button(action: {
                                 selectNextDevice()
                             }) {
                                 Image(systemName: "arrow.forward.circle.fill")
-                            }
+                            }.controlSize(.large)
+                            .padding()
                         }
                     }
                     if selectedDevice != nil {

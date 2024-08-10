@@ -82,15 +82,15 @@ struct ScanningView: View {
                     .sheet(isPresented: $showingDeviceManager, content:{
                         NewDeviceView(devices: $devices, onScreen: $showingDeviceManager)
                     })
-                Spacer()
-                Button(action: {
-                    current_coords = captureController.getTransform()
-                    current_angle = captureController.getAngles()
-                }, label: {
-                    Text("Show Transform: \(current_angle)").font(.title2)
-                }).buttonStyle(.borderedProminent)
-                    .cornerRadius(40)
-                    .padding()
+//                Spacer()
+//                Button(action: {
+//                    current_coords = captureController.getTransform()
+//                    current_angle = captureController.getAngles()
+//                }, label: {
+//                    Text("Show Transform: \(current_angle)").font(.title2)
+//                }).buttonStyle(.borderedProminent)
+//                    .cornerRadius(40)
+//                    .padding()
             }
         }
     }

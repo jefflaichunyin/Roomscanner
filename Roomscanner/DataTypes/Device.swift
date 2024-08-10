@@ -31,7 +31,7 @@ struct Device: Identifiable{
         id: UUID = UUID(),
          transform: simd_float4x4 = simd_float4x4(0),
          tag: Int = 0,
-         onCeiling: Bool = false,
+         onCeiling: Bool = true,
          airSource: String = "",
          width: Float = 0,
          height: Float = 0,
