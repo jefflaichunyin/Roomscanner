@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4963320E2C91FD9300C5F85C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496332062C91FD9300C5F85C /* Category.swift */; };
+		4963320F2C91FD9300C5F85C /* Conditioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496332072C91FD9300C5F85C /* Conditioner.swift */; };
+		496332102C91FD9300C5F85C /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496332082C91FD9300C5F85C /* Directions.swift */; };
+		496332112C91FD9300C5F85C /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496332092C91FD9300C5F85C /* Door.swift */; };
+		496332122C91FD9300C5F85C /* Open.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963320A2C91FD9300C5F85C /* Open.swift */; };
+		496332132C91FD9300C5F85C /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963320B2C91FD9300C5F85C /* Supplier.swift */; };
+		496332142C91FD9300C5F85C /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4963320C2C91FD9300C5F85C /* Window.swift */; };
+		496332162C91FDE300C5F85C /* NewDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496332152C91FDE300C5F85C /* NewDeviceView.swift */; };
+		496332182C91FE6500C5F85C /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496332172C91FE6500C5F85C /* DeviceView.swift */; };
+		4963321A2C91FE8E00C5F85C /* Transforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496332192C91FE8E00C5F85C /* Transforms.swift */; };
 		CE783C282C37A2A500AC3A13 /* RoomPlan Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = CE783C272C37A2A500AC3A13 /* RoomPlan Scene.scn */; };
 		CE783C2A2C37AE5B00AC3A13 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783C292C37AE5B00AC3A13 /* ModelView.swift */; };
-		CE783C2C2C37AF5000AC3A13 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783C2B2C37AF5000AC3A13 /* ViewModel.swift */; };
 		CE783C2E2C37B38D00AC3A13 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE783C2D2C37B38D00AC3A13 /* Device.swift */; };
-		CE84004B2C4106D600314F71 /* DeviceEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84004A2C4106D600314F71 /* DeviceEditorView.swift */; };
 		CF79BA52287EC88400979CF2 /* RoomscannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79BA51287EC88400979CF2 /* RoomscannerApp.swift */; };
 		CF79BA54287EC88400979CF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79BA53287EC88400979CF2 /* ContentView.swift */; };
 		CF79BA56287EC88500979CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF79BA55287EC88500979CF2 /* Assets.xcassets */; };
@@ -20,11 +28,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		496332062C91FD9300C5F85C /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		496332072C91FD9300C5F85C /* Conditioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conditioner.swift; sourceTree = "<group>"; };
+		496332082C91FD9300C5F85C /* Directions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		496332092C91FD9300C5F85C /* Door.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		4963320A2C91FD9300C5F85C /* Open.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Open.swift; sourceTree = "<group>"; };
+		4963320B2C91FD9300C5F85C /* Supplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplier.swift; sourceTree = "<group>"; };
+		4963320C2C91FD9300C5F85C /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		496332152C91FDE300C5F85C /* NewDeviceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDeviceView.swift; sourceTree = "<group>"; };
+		496332172C91FE6500C5F85C /* DeviceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		496332192C91FE8E00C5F85C /* Transforms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transforms.swift; sourceTree = "<group>"; };
 		CE783C272C37A2A500AC3A13 /* RoomPlan Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "RoomPlan Scene.scn"; sourceTree = "<group>"; };
 		CE783C292C37AE5B00AC3A13 /* ModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
-		CE783C2B2C37AF5000AC3A13 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		CE783C2D2C37B38D00AC3A13 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		CE84004A2C4106D600314F71 /* DeviceEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEditorView.swift; sourceTree = "<group>"; };
 		CF79BA4E287EC88400979CF2 /* Roomscanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomscanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF79BA51287EC88400979CF2 /* RoomscannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomscannerApp.swift; sourceTree = "<group>"; };
 		CF79BA53287EC88400979CF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,11 +60,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4963320D2C91FD9300C5F85C /* Data Fields */ = {
+			isa = PBXGroup;
+			children = (
+				496332062C91FD9300C5F85C /* Category.swift */,
+				496332072C91FD9300C5F85C /* Conditioner.swift */,
+				496332082C91FD9300C5F85C /* Directions.swift */,
+				496332092C91FD9300C5F85C /* Door.swift */,
+				4963320A2C91FD9300C5F85C /* Open.swift */,
+				4963320B2C91FD9300C5F85C /* Supplier.swift */,
+				4963320C2C91FD9300C5F85C /* Window.swift */,
+			);
+			path = "Data Fields";
+			sourceTree = "<group>";
+		};
 		CE74024D2C3E921E0002DFFC /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
+				4963320D2C91FD9300C5F85C /* Data Fields */,
 				CE783C2D2C37B38D00AC3A13 /* Device.swift */,
-				CE84004A2C4106D600314F71 /* DeviceEditorView.swift */,
 			);
 			path = DataTypes;
 			sourceTree = "<group>";
@@ -56,8 +86,8 @@
 		CE7646472C36686B00B5A928 /* RoomModel */ = {
 			isa = PBXGroup;
 			children = (
+				496332192C91FE8E00C5F85C /* Transforms.swift */,
 				CE783C272C37A2A500AC3A13 /* RoomPlan Scene.scn */,
-				CE783C2B2C37AF5000AC3A13 /* ViewModel.swift */,
 				CE783C292C37AE5B00AC3A13 /* ModelView.swift */,
 			);
 			path = RoomModel;
@@ -82,6 +112,8 @@
 		CF79BA50287EC88400979CF2 /* Roomscanner */ = {
 			isa = PBXGroup;
 			children = (
+				496332172C91FE6500C5F85C /* DeviceView.swift */,
+				496332152C91FDE300C5F85C /* NewDeviceView.swift */,
 				CE74024D2C3E921E0002DFFC /* DataTypes */,
 				CF79BA5F287FFDF200979CF2 /* RoomCaptureController.swift */,
 				CF79BA51287EC88400979CF2 /* RoomscannerApp.swift */,
@@ -172,13 +204,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4963320F2C91FD9300C5F85C /* Conditioner.swift in Sources */,
 				CF79BA60287FFDF200979CF2 /* RoomCaptureController.swift in Sources */,
-				CE84004B2C4106D600314F71 /* DeviceEditorView.swift in Sources */,
 				CE783C2A2C37AE5B00AC3A13 /* ModelView.swift in Sources */,
-				CE783C2C2C37AF5000AC3A13 /* ViewModel.swift in Sources */,
 				CF79BA54287EC88400979CF2 /* ContentView.swift in Sources */,
+				496332112C91FD9300C5F85C /* Door.swift in Sources */,
+				4963321A2C91FE8E00C5F85C /* Transforms.swift in Sources */,
 				CF79BA52287EC88400979CF2 /* RoomscannerApp.swift in Sources */,
+				496332162C91FDE300C5F85C /* NewDeviceView.swift in Sources */,
 				CE783C2E2C37B38D00AC3A13 /* Device.swift in Sources */,
+				4963320E2C91FD9300C5F85C /* Category.swift in Sources */,
+				496332102C91FD9300C5F85C /* Directions.swift in Sources */,
+				496332182C91FE6500C5F85C /* DeviceView.swift in Sources */,
+				496332122C91FD9300C5F85C /* Open.swift in Sources */,
+				496332132C91FD9300C5F85C /* Supplier.swift in Sources */,
+				496332142C91FD9300C5F85C /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
